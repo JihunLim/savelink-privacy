@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ✉️ 이메일 문의 / Email Support
+    url: mailto:jihunlim204@gmail.com
+    about: GitHub 계정 없이 바로 이메일로 문의하기. Contact via email without a GitHub account.
+  - name: 🔒 개인정보처리방침 / Privacy Policy
+    url: https://jihunlim.github.io/savelink-privacy/
+    about: SaveLink 개인정보처리방침 확인. View our privacy policy.

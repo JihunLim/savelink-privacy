@@ -1,0 +1,35 @@
+name: 🐛 버그 신고 / Bug report
+description: 앱에서 발견한 문제를 알려주세요. / Report a problem you found in the app.
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 어떤 문제가 발생했나요? / What happened?
+      description: 어떤 화면에서 어떤 동작을 했을 때 무슨 일이 생겼는지 적어주세요.
+      placeholder: 예) 링크를 공유로 저장했더니 요약이 생성되지 않았어요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서 / Steps to reproduce
+      placeholder: |
+        1. 브라우저에서 링크 공유 → SaveLink
+        2. AI 요약 ON 으로 저장
+        3. ...
+  - type: input
+    id: device
+    attributes:
+      label: iPhone 모델 · iOS 버전 / Device & iOS
+      placeholder: iPhone 15 Pro Max / iOS 18.2
+  - type: input
+    id: version
+    attributes:
+      label: 앱 버전 / App version
+      placeholder: 1.0.0
+  - type: textarea
+    id: extra
+    attributes:
+      label: 스크린샷 또는 영상 (선택) / Screenshots or video (optional)

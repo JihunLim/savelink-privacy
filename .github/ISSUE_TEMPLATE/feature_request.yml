@@ -1,0 +1,17 @@
+name: 💡 기능 제안 / Feature request
+description: 추가하면 좋을 기능을 알려주세요. / Suggest a feature you'd like.
+title: "[제안] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: 어떤 기능을 원하시나요? / What feature would you like?
+      placeholder: 예) 저장한 링크를 폴더로 묶어 공유하고 싶어요.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 왜 필요한가요? / Why do you need it?
+      placeholder: 이 기능으로 어떤 문제가 해결되는지 적어주세요.

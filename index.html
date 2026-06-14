@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaveLink — Privacy Policy / 개인정보처리방침</title>
+<style>
+:root {
+  --primary: #6366F1;
+  --text: #0F172A;
+  --muted: #64748B;
+  --bg: #FAFBFF;
+  --card: #FFFFFF;
+  --border: #E2E8F0;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 40px 20px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 48px 40px;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+.brand { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.brand-mark {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  display: flex; align-items: center; justify-content: center;
+  color: white; font-weight: 900; font-size: 20px;
+}
+.brand-name { font-weight: 800; letter-spacing: 2px; }
+h1 { font-size: 28px; margin: 8px 0 4px; font-weight: 800; }
+.meta { color: var(--muted); font-size: 13px; margin-bottom: 32px; }
+h2 {
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+}
+p, li { font-size: 15px; }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+a { color: var(--primary); }
+.tabs { display: flex; gap: 8px; margin-bottom: 24px; }
+.tabs button {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.tabs button.active { background: var(--primary); color: white; border-color: var(--primary); }
+.lang { display: none; }
+.lang.active { display: block; }
+.links { margin-top: 20px; font-size: 14px; }
+.links a { margin-right: 16px; }
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <div class="brand-mark">S</div>
+    <div class="brand-name">SAVELINK</div>
+  </div>
+  <div class="tabs">
+    <button class="active" onclick="setLang('ko', this)">한국어</button>
+    <button onclick="setLang('en', this)">English</button>
+  </div>
+
+  <!-- ============= KOREAN ============= -->
+  <section class="lang active" id="ko">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">최종 업데이트: 2026년 6월 9일</p>
+    <p>SaveLink(이하 "서비스")는 링크를 저장·정리·공유하는 개인 개발 서비스입니다. 본 방침은 서비스가 어떤 정보를 수집하고 어떻게 이용·보관·삭제하는지 설명합니다.</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <ul>
+      <li>계정 정보: 이메일 주소(로그인 인증용), 표시 이름.</li>
+      <li>이용 정보: 저장한 링크의 URL·제목·설명·메모·AI 요약·태그, 카테고리, 공개/비공개 설정, 크레딧 적립·사용 내역.</li>
+      <li>커뮤니티 활동: 공개 링크, 팔로우/구독, 신고·차단 기록.</li>
+    </ul>
+    <p>별도의 광고 식별자나 위치정보, 연락처, 결제정보는 수집하지 않습니다.</p>
+
+    <h2>2. 이용 목적</h2>
+    <p>로그인 인증, 링크 저장·검색·분류·공유 기능 제공, AI 요약 및 자동 분류 제공, 커뮤니티 피드 운영 및 부적절한 콘텐츠 관리를 위해 이용합니다.</p>
+
+    <h2>3. 제3자 처리 위탁</h2>
+    <p>서비스 제공을 위해 다음 업체에 일부 처리를 위탁합니다.</p>
+    <ul>
+      <li><strong>Supabase</strong> — 인증, 데이터베이스, 파일 저장 및 호스팅. 위의 모든 데이터가 Supabase 인프라에 저장됩니다.</li>
+      <li><strong>OpenAI</strong> — AI 요약·분류 기능 사용 시, 해당 링크의 URL과 페이지 본문 일부를 OpenAI API로 전송해 요약을 생성합니다. API로 전송된 내용은 모델 학습에 사용되지 않습니다.</li>
+    </ul>
+
+    <h2>4. 공개되는 정보</h2>
+    <p>링크를 "공개"로 설정하면 제목·요약·태그·작성자 표시 이름이 커뮤니티 피드와 공개 프로필에서 다른 사용자에게 보입니다. 비공개 링크와 메모는 본인만 볼 수 있습니다.</p>
+
+    <h2>5. 보관 및 삭제</h2>
+    <p>데이터는 계정이 유지되는 동안 보관됩니다. 앱 또는 웹의 <strong>설정 → 계정 삭제</strong>에서 언제든지 계정과 모든 관련 데이터(링크·카테고리·요약·크레딧 기록·구독 등)를 영구히 삭제할 수 있으며, 삭제는 즉시 처리되고 되돌릴 수 없습니다. 자세한 절차는 <a href="delete-account.html">계정·데이터 삭제 안내</a>를 참고하세요.</p>
+
+    <h2>6. 광고·추적·판매 없음</h2>
+    <p>서비스는 광고를 게재하지 않고, 제3자 추적 SDK를 사용하지 않으며, 어떤 경우에도 개인정보를 판매하지 않습니다.</p>
+
+    <h2>7. 아동</h2>
+    <p>서비스는 만 14세 미만 아동을 대상으로 하지 않으며, 의도적으로 해당 정보를 수집하지 않습니다.</p>
+
+    <h2>8. 문의</h2>
+    <p>개인정보 관련 문의는 <a href="mailto:jihunlim204@gmail.com">jihunlim204@gmail.com</a>로 연락해 주세요.</p>
+
+    <h2>9. 변경</h2>
+    <p>본 방침이 변경되는 경우 본 페이지를 통해 고지합니다.</p>
+
+    <div class="links">
+      <a href="terms.html">이용약관 →</a>
+      <a href="delete-account.html">계정·데이터 삭제 →</a>
+    </div>
+    <p class="meta" style="margin-top:24px;">본 방침은 대한민국 개인정보 보호법 및 Apple App Store Review Guidelines 5.1을 준수합니다.</p>
+  </section>
+
+  <!-- ============= ENGLISH ============= -->
+  <section class="lang" id="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: June 9, 2026</p>
+    <p>SaveLink ("the Service") is an indie service for saving, organizing, and sharing links. This policy explains what information the Service collects and how it is used, stored, and deleted.</p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li>Account info: email address (for login authentication) and display name.</li>
+      <li>Usage info: the URL, title, description, notes, AI summary, and tags of saved links; categories; public/private settings; and credit earn/spend history.</li>
+      <li>Community activity: public links, follows/subscriptions, and report/block records.</li>
+    </ul>
+    <p>We do not collect advertising identifiers, location data, contacts, or payment information.</p>
+
+    <h2>2. How We Use It</h2>
+    <p>To provide login authentication; link saving, search, categorization, and sharing; AI summaries and auto-categorization; and to operate the community feed and moderate objectionable content.</p>
+
+    <h2>3. Third-Party Processors</h2>
+    <p>We rely on the following providers to deliver the Service:</p>
+    <ul>
+      <li><strong>Supabase</strong> — authentication, database, file storage, and hosting. All of the data above is stored on Supabase infrastructure.</li>
+      <li><strong>OpenAI</strong> — when you use AI summary/classification, the link's URL and part of the page body are sent to the OpenAI API to generate a summary. Content sent via the API is not used to train models.</li>
+    </ul>
+
+    <h2>4. What Becomes Public</h2>
+    <p>When you set a link to "public," its title, summary, tags, and your display name are visible to other users in the community feed and on your public profile. Private links and notes are visible only to you.</p>
+
+    <h2>5. Retention &amp; Deletion</h2>
+    <p>Data is retained while your account exists. From <strong>Settings → Delete Account</strong> in the app or web, you can permanently delete your account and all related data (links, categories, summaries, credit history, subscriptions, etc.) at any time. Deletion is immediate and irreversible. See <a href="delete-account.html">Account &amp; Data Deletion</a> for the full process.</p>
+
+    <h2>6. No Ads, Tracking, or Sale of Data</h2>
+    <p>The Service shows no ads, uses no third-party tracking SDKs, and never sells personal information.</p>
+
+    <h2>7. Children</h2>
+    <p>The Service is not directed to children under 14 and does not knowingly collect their information.</p>
+
+    <h2>8. Contact</h2>
+    <p>For privacy inquiries, contact <a href="mailto:jihunlim204@gmail.com">jihunlim204@gmail.com</a>.</p>
+
+    <h2>9. Changes</h2>
+    <p>If this policy changes, we will post the update on this page.</p>
+
+    <div class="links">
+      <a href="terms.html">Terms of Service →</a>
+      <a href="delete-account.html">Account &amp; Data Deletion →</a>
+    </div>
+    <p class="meta" style="margin-top:24px;">This policy complies with the Personal Information Protection Act (Korea) and Apple App Store Review Guidelines 5.1.</p>
+  </section>
+
+  <footer>© 2026 Jihun Lim · SaveLink</footer>
+</main>
+
+<script>
+function setLang(code, btn) {
+  document.querySelectorAll('.lang').forEach(el => el.classList.toggle('active', el.id === code));
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b === btn));
+  history.replaceState(null, '', '#' + code);
+}
+if (location.hash === '#en') setLang('en', document.querySelectorAll('.tabs button')[1]);
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+name: ❓ 질문 / Question
+description: 앱 사용 중 궁금한 점이 있으면 알려주세요. / Ask anything about using the app.
+title: "[질문] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문 내용 / Your question
+    validations:
+      required: true
