@@ -95,7 +95,7 @@ footer {
   <!-- ============= KOREAN ============= -->
   <section class="lang active" id="ko">
     <h1>개인정보처리방침</h1>
-    <p class="meta">최종 업데이트: 2026년 6월 9일</p>
+    <p class="meta">최종 업데이트: 2026년 6월 20일</p>
     <p>SaveLink(이하 "서비스")는 링크를 저장·정리·공유하는 개인 개발 서비스입니다. 본 방침은 서비스가 어떤 정보를 수집하고 어떻게 이용·보관·삭제하는지 설명합니다.</p>
 
     <h2>1. 수집하는 정보</h2>
@@ -104,7 +104,7 @@ footer {
       <li>이용 정보: 저장한 링크의 URL·제목·설명·메모·AI 요약·태그, 카테고리, 공개/비공개 설정, 크레딧 적립·사용 내역.</li>
       <li>커뮤니티 활동: 공개 링크, 팔로우/구독, 신고·차단 기록.</li>
     </ul>
-    <p>별도의 광고 식별자나 위치정보, 연락처, 결제정보는 수집하지 않습니다.</p>
+    <p>위치정보, 연락처, 결제정보는 수집하지 않습니다. 맞춤형 광고를 위한 광고 식별자(IDFA)는 이용자가 iOS 앱 추적을 허용한 경우에만 사용됩니다(아래 6항 참조).</p>
 
     <h2>2. 이용 목적</h2>
     <p>로그인 인증, 링크 저장·검색·분류·공유 기능 제공, AI 요약 및 자동 분류 제공, 커뮤니티 피드 운영 및 부적절한 콘텐츠 관리를 위해 이용합니다.</p>
@@ -114,6 +114,7 @@ footer {
     <ul>
       <li><strong>Supabase</strong> — 인증, 데이터베이스, 파일 저장 및 호스팅. 위의 모든 데이터가 Supabase 인프라에 저장됩니다.</li>
       <li><strong>OpenAI</strong> — AI 요약·분류 기능 사용 시, 해당 링크의 URL과 페이지 본문 일부를 OpenAI API로 전송해 요약을 생성합니다. API로 전송된 내용은 모델 학습에 사용되지 않습니다.</li>
+      <li><strong>Google AdMob</strong> — 앱 내 보상형 광고(시청 시 AI 크레딧 적립)를 게재합니다. 맞춤형 광고에 동의한 경우 광고 식별자(IDFA) 등 기기 정보가 Google에 전송될 수 있습니다.</li>
     </ul>
 
     <h2>4. 공개되는 정보</h2>
@@ -122,8 +123,8 @@ footer {
     <h2>5. 보관 및 삭제</h2>
     <p>데이터는 계정이 유지되는 동안 보관됩니다. 앱 또는 웹의 <strong>설정 → 계정 삭제</strong>에서 언제든지 계정과 모든 관련 데이터(링크·카테고리·요약·크레딧 기록·구독 등)를 영구히 삭제할 수 있으며, 삭제는 즉시 처리되고 되돌릴 수 없습니다. 자세한 절차는 <a href="delete-account.html">계정·데이터 삭제 안내</a>를 참고하세요.</p>
 
-    <h2>6. 광고·추적·판매 없음</h2>
-    <p>서비스는 광고를 게재하지 않고, 제3자 추적 SDK를 사용하지 않으며, 어떤 경우에도 개인정보를 판매하지 않습니다.</p>
+    <h2>6. 광고 및 추적</h2>
+    <p>서비스는 Google AdMob의 보상형 광고를 제공하며, 광고를 끝까지 시청하면 AI 크레딧이 적립됩니다. 맞춤형 광고를 위해 iOS의 앱 추적 투명성(ATT)에 동의하면 광고 식별자(IDFA)를 사용할 수 있고, 동의를 거부해도 앱은 정상 동작합니다(비맞춤형 광고 표시). 어떤 경우에도 개인정보를 판매하지 않습니다.</p>
 
     <h2>7. 아동</h2>
     <p>서비스는 만 14세 미만 아동을 대상으로 하지 않으며, 의도적으로 해당 정보를 수집하지 않습니다.</p>
@@ -144,7 +145,7 @@ footer {
   <!-- ============= ENGLISH ============= -->
   <section class="lang" id="en">
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: June 9, 2026</p>
+    <p class="meta">Last updated: June 20, 2026</p>
     <p>SaveLink ("the Service") is an indie service for saving, organizing, and sharing links. This policy explains what information the Service collects and how it is used, stored, and deleted.</p>
 
     <h2>1. Information We Collect</h2>
@@ -153,7 +154,7 @@ footer {
       <li>Usage info: the URL, title, description, notes, AI summary, and tags of saved links; categories; public/private settings; and credit earn/spend history.</li>
       <li>Community activity: public links, follows/subscriptions, and report/block records.</li>
     </ul>
-    <p>We do not collect advertising identifiers, location data, contacts, or payment information.</p>
+    <p>We do not collect location data, contacts, or payment information. An advertising identifier (IDFA) is used only if you allow app tracking on iOS, for personalized ads (see §6).</p>
 
     <h2>2. How We Use It</h2>
     <p>To provide login authentication; link saving, search, categorization, and sharing; AI summaries and auto-categorization; and to operate the community feed and moderate objectionable content.</p>
@@ -163,6 +164,7 @@ footer {
     <ul>
       <li><strong>Supabase</strong> — authentication, database, file storage, and hosting. All of the data above is stored on Supabase infrastructure.</li>
       <li><strong>OpenAI</strong> — when you use AI summary/classification, the link's URL and part of the page body are sent to the OpenAI API to generate a summary. Content sent via the API is not used to train models.</li>
+      <li><strong>Google AdMob</strong> — serves in-app rewarded ads (finish one to earn AI credits). If you consent to personalized ads, device info including the advertising identifier (IDFA) may be sent to Google.</li>
     </ul>
 
     <h2>4. What Becomes Public</h2>
@@ -171,8 +173,8 @@ footer {
     <h2>5. Retention &amp; Deletion</h2>
     <p>Data is retained while your account exists. From <strong>Settings → Delete Account</strong> in the app or web, you can permanently delete your account and all related data (links, categories, summaries, credit history, subscriptions, etc.) at any time. Deletion is immediate and irreversible. See <a href="delete-account.html">Account &amp; Data Deletion</a> for the full process.</p>
 
-    <h2>6. No Ads, Tracking, or Sale of Data</h2>
-    <p>The Service shows no ads, uses no third-party tracking SDKs, and never sells personal information.</p>
+    <h2>6. Ads &amp; Tracking</h2>
+    <p>The Service shows rewarded ads via Google AdMob — finish watching one to earn AI credits. If you consent through App Tracking Transparency (ATT) on iOS, the advertising identifier (IDFA) may be used for personalized ads; if you decline, the app still works fully (you'll see non-personalized ads). We never sell personal information.</p>
 
     <h2>7. Children</h2>
     <p>The Service is not directed to children under 14 and does not knowingly collect their information.</p>
